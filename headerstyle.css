@@ -1,0 +1,14 @@
+body{
+    height: 100px;
+}
+
+.logo{
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
