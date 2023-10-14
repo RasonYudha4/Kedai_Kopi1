@@ -6,9 +6,16 @@ body{
 
 }
 
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
 .navbar ul li{
     list-style: none;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     column-gap: 20px;
     align-items: center;
 }
