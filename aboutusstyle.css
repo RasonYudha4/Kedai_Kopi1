@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    background-color: yellow;
+}
+
+#showcase {
+    background-image: url(Images/Cafe-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#showcase div {
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
