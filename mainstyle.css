@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    color: #fab46a;
+    color: #eddcb6;
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     background: rgba(255, 122, 89, .5,);
@@ -14,7 +14,7 @@
 }
 
 .welcoming .content h1 span {
-    color: white;
+    color: #f8aa57;
 }
 
 .welcoming .content p{
