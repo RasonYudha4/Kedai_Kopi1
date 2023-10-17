@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservation</title>
+  <link rel="stylesheet" href="reservationstyle.css">
+</head>
+<body>
+  <header>
+    <h1 class="marquee"> Make a Reservation</h1>
+  </header>
+  <main>
+    <form action="/reservations" method="post">
+      <input type="text" name="name" placeholder="Name">
+      <input type="tel" name="phone" placeholder="Phone Number">
+      <input type="email" name="email" placeholder="Email">
+      <input type="date" name="date" placeholder="Date">
+      <input type="time" name="time" placeholder="Time">
+      <input type="number" name="people" placeholder="People">
+      <select name="table_preference">
+        <option value="none">Choose Table Preferences</option>
+        <option value="indoor">Indoor</option>
+        <option value="outdoor">Outdoor</option>
+        <option value="sofa">Sofa</option>
+      </select>
+      <input type="submit" value="Make a Reservation">
+    </form>
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  header {
+    background-color: #ffe8cf;
+    color: firebrick;
+    padding: 50px;
+  }
+  
+  main {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #ffe8cf;
+    cursor: pointer;
+  }
+  
+  .reservation-policy {
+    margin-top: 20px;
+  }
+  
+  .reservation-policy p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .payment-process {
+    margin-top: 20px;
+  }
+  
+  .payment-process p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .marquee {
+    animation: marquee 3s infinite linear;
+    animation-direction: reverse;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
