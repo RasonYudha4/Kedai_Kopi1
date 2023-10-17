@@ -4,6 +4,22 @@
     font-family: 'Poppins', sans-serif;
 
 }   
+#2 {
+        max-height: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+}
+
+#3 {
+    max-height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+} 
+
 
 .opening{
     font-size: 20px;
