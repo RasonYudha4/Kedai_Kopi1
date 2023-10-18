@@ -10,6 +10,10 @@ a {
     color: black;
 }
 
+a:hover {
+    background-color: gray;
+}
+
 body {
     margin: 0;
     padding: 0;
