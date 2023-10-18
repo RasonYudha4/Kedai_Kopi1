@@ -1,17 +1,45 @@
-head {
-   
+body {
+    display: fle;
+    justify-content: center;
+    align-items: center;
+    height: 280vh;
+    text-decoration: ;
+    margin:0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+.gambar {
+    align-items: center;
+    margin-left: 150px;
 }
 
-body {
-    
-
- text-decoration: none ;
-    margin: 25px ;
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
-    align-items: center;
+.Word {
+    background-color: bisque;
+    text-align: center;
+    color: brown;
 }
 
 img{
-    width: 40%; height: 40%;
+    width: 30%; height: 30%;
+}
+
+.tiga {
+    height: 643px;
+}
+
+.enam {
+    height: 805px;
+}
+
+.empat {
+    height: 805px;
+}
+
+.tujuh {
+    height: 805px;
+}
+
+.sepuluh {
+    height: 914px;
 }
