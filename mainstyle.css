@@ -52,7 +52,7 @@
 }
 
 @media (max-width: 768px) {
-     {.carousel-inner
+     .carousel-inner{
         grid-template-columns: 1fr;
     }
 }
