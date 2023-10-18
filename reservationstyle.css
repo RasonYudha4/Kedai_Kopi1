@@ -1,16 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+
+}
+
 body {
     font-family: sans-serif;
-    background-color: #fff;
+    
+    background-image: url(image/coffee-beans-levitate-white-background.jpg);
+    background-position: center;
+    background-size: cover;
   }
   
   header {
-    background-color: #ffe8cf;
-    color: firebrick;
-    padding: 50px;
+   
+    text-align: center;
+    padding: 80px;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
   }
   
   main {
-    width: 100%;
+    width: 50%;
     max-width: 500px;
     margin: 0 auto;
   }
@@ -36,34 +49,19 @@ body {
     cursor: pointer;
   }
   
-  .reservation-policy {
-    margin-top: 20px;
-  }
   
-  .reservation-policy p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
-  
-  .payment-process {
-    margin-top: 20px;
-  }
-  
-  .payment-process p {
-    font-size: 14px;
-    line-height: 1.5;
-  }
 
-  .marquee {
-    animation: marquee 3s infinite linear;
-    animation-direction: reverse;
+
+
+  body {
+    font-family: sans-serif;
+    background-color: whitesmokes;
   }
   
-  @keyframes marquee {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(100%);
-    }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
   }
+  
+ 
+ 
