@@ -1,16 +1,9 @@
-
-body {
-    
-
-
-}
-
 body {
     display: fle;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    height: 280vh; /* Set a height for the body element */
-    text-decoration: none ;
+    justify-content: center;
+    align-items: center;
+    height: 280vh;
+    text-decoration: ;
     margin:0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
@@ -32,7 +25,7 @@ img{
 }
 
 .tiga {
-    height: 645px;
+    height: 643px;
 }
 
 .enam {
@@ -48,5 +41,5 @@ img{
 }
 
 .sepuluh {
-    height: 929px;
+    height: 914px;
 }
