@@ -4,8 +4,13 @@
     font-family: 'Poppins', sans-serif;
 
 }   
+
+.carousel-inner {
+    display: block;
+    max-width: fit-content;
+}
+
 #2 {
-        max-height: 1200px;
         margin-left: auto;
         margin-right: auto;
         display: block;
@@ -14,19 +19,20 @@
 
 #3 {
     max-height: 1200px;
-    margin-left: auto;
     margin-right: auto;
     display: block;
     align-items: center;
 } 
 
-
 .opening{
     font-size: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .carousel-caption h1{
     font-weight: 700px;
-    position: flex;
+    display: inline-block;
 }
 .carousel-caption h1 span {
     color: #eab378;
