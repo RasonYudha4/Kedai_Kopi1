@@ -17,6 +17,19 @@
       <input type="date" name="date" placeholder="Date">
       <input type="time" name="time" placeholder="Time">
       <input type="number" name="people" placeholder="People">
+
+<script>
+function validatePeople() {
+  var people = document.getElementById("people").value;
+
+  if (people < 1) {
+    alert("Jumlah people harus lebih besar atau sama dengan 1");
+    document.getElementById("people").value = "";
+  }
+}
+
+document.getElementById("people").addEventListener("change", validatePeople);
+</script>
       <select name="table_preference">
         <option value="none">Choose Table Preferences</option>
         <option value="indoor">Indoor</option>
