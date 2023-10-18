@@ -39,7 +39,7 @@ body {
 
 .row1 {
     display: flex;
-    width: 100%;
+    padding: 25px;
 }
 
 .section {
@@ -55,9 +55,10 @@ body {
 }
 
 .row2 {
-    width: 100%;
-    padding: 20px;
+    padding: 45px;
     text-align: center;
+    background-color: #7A4E39;
+    color: white;
 }
 
 /* .contents {
