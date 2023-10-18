@@ -29,7 +29,8 @@
     position: flex;
 }
 .carousel-caption h1 span {
-    color: #de9446;
+    color: #eab378;
+    font-weight: 900;
 }
 
 .reservation a{
