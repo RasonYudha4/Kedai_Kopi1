@@ -4,32 +4,41 @@
     font-family: 'Poppins', sans-serif;
 
 }   
+
+.carousel-inner {
+    display: flex;
+    max-width: fit-content;
+}
+
 #2 {
-        max-height: 1200px;
         margin-left: auto;
         margin-right: auto;
-        display: flex;
+        display: block;
         align-items: center;
 }
 
 #3 {
     max-height: 1200px;
-    margin-left: auto;
     margin-right: auto;
-    display: flex;
+    display: block;
     align-items: center;
 } 
 
-
 .opening{
     font-size: 20px;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .carousel-caption h1{
     font-weight: 700px;
-    position: flex;
+    position: relative;
+    display: inline;
+    position: static;
 }
 .carousel-caption h1 span {
-    color: #de9446;
+    color: #eab378;
+    font-weight: 900;
 }
 
 .reservation a{
@@ -49,4 +58,10 @@
     background-color: brown;
     border-radius: 8px;
     box-shadow: 1px 1px 3px rgba(1,1,3,0.5);
+}
+
+@media (max-width: 768px) {
+     .carousel-inner{
+        grid-template-columns: 1fr;
+    }
 }

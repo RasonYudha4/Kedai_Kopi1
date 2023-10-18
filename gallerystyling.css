@@ -1,17 +1,80 @@
-head {
-   
-}
-
 body {
-    
-
- text-decoration: none ;
-    margin: 25px ;
-    padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    display: fle;
+    justify-content: center;
     align-items: center;
+    height: 280vh;
+    font-family: 'Poppins',sans-serif;
+    ;
+    margin:0;
+    padding: 0;
+    /*font-family: 'Times New Roman',Times, serif;*/
+    background-color: bisque;
+  }
+
+.gambar {
+   /* align-items: center;
+    margin-left: 0px;*/
+
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-img{
-    width: 40%; height: 40%;
+.Word {
+    background-color: bisque;
+    text-align: center;
+    color: brown;
 }
+/*
+img{
+    width: 30%; height: 30%;
+}
+*/
+
+.satu {
+    width: 00px;
+}
+
+.dua {
+    width: 600px;
+}
+
+.tiga {
+    width: 693px;
+}
+
+.enam {
+    width: 700px;
+}
+
+.empat {
+    width: 600px;
+}
+
+.tujuh {
+    height: px;
+}
+
+.delapan {
+    height: 1200px;
+    width: 600px;
+}
+
+.sepuluh {
+    width: 589px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
