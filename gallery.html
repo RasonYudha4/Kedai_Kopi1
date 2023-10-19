@@ -3,29 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galery</title>
-<link href="gallerystyling.css" rel="stylesheet"/>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallerystyling.css">
+    <style>
+    *{
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-
+    body {
+        background-image: url(Images/book-bg.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    </style>
 </head>
 <body>
+    <input type="radio" name="Gallery" id="check1" checked>
+    <input type="radio" name="Gallery" id="check2">
+    <input type="radio" name="Gallery" id="check3">
 
-    <div class="Word">
-        <h1>Images</h1>
+    <div class="container">
+        <h1 style="font-size: 48px; font-weight: normal; position: relative; margin: 40px 0; ">Gallery</h1>
+        <div class="top">
+            <h3>Pages</h3>
+            <label for="check1">All Pictures</label>
+            <label for="check2">Coffee</label>
+            <label for="check3">Dessert</label>
+        </div>
+
+        <div class="photo">
+            <div class="pic coffee">
+                <img src="Images/Coffee photo1.jpg" alt="Coffee">
+            </div>
+            <div class="pic dessert">
+                <img src="Images/Croissant2.jpg" alt="Dessert">
+            </div>
+            <div class="pic coffee">
+                <img src="Images/Coffee photo2.jpeg" alt="Coffee">
+            </div>
+            <div class="pic dessert">
+                <img src="Images/Croissant3.jpg" alt="Dessert">
+            </div>
+            <div class="pic coffee">
+                <img src="Images/Coffee photo3.jpeg" alt="Coffee">
+            </div>
+            <div class="pic dessert">
+                <img src="Images/Tiramisu1.jpg" alt="Dessert">
+            </div>
+            <div class="pic coffee">
+                <img src="Images/Coffee photo4.jpeg" alt="Coffee">
+            </div>
+            <div class="pic dessert">
+                <img src="Images/Tiramisu2.jpg" alt="Dessert">
+            </div>
+        </div>
     </div>
-    
-    <div class="gambar">
-        
-        <img src="Images/Coffee photo1.jpg" alt="coffee1">
-        <img src="Images/Coffee photo2.jpeg" alt="coffee2">
-        <img  class="tiga" src="Images/Coffee photo12.jpeg" alt="coffee3">
-        <img class="empat" src="Images/Coffee photo4.jpeg" alt="coffee4">
-        <img class="enam" src="Images/Coffee photo6.jpeg" alt="coffee6">
-        <img class="tujuh" src="Images/Coffee photo7.jpeg" alt="coffee7">
-        <img class="delapan" src="Images/Coffee photo8.jpeg" alt="coffee8">
-        <img src="Images/Coffee photo9.jpeg" alt="coffee9">
-        <img class="sepuluh" src="Images/Coffee photo11.jpeg" alt="coffee10">
-        
-    </div>
-        
-    </body>
+</body>
+</html>

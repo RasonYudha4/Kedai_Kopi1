@@ -7,40 +7,35 @@
 </head>
 <body>
   <header>
-    <h1> Make a Reservation</h1>
+    <h1 style="color: black; font-size: 40px;">Make a Reservation</h1>
   </header>
   <main>
     <form action="/reservations" method="post">
-      <input type="text" name="name" placeholder="Name">
-      <input type="tel" name="phone" placeholder="Phone Number">
-      <input type="email" name="email" placeholder="Email">
-      <input type="date" name="date" placeholder="Date">
-      <input type="time" name="time" placeholder="Time">
-      <input type="number" name="people" placeholder="People">
-
-<script>
-function validatePeople() {
-  var people = document.getElementById("people").value;
-
-  if (people < 1) {
-    alert("Jumlah people harus lebih besar atau sama dengan 1");
-    document.getElementById("people").value = "";
-  }
-}
-
-document.getElementById("people").addEventListener("change", validatePeople);
-</script>
-      <select name="table_preference">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="tel" name="phone" placeholder="Phone Number" required> 
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="date" name="date" placeholder="Date" required>
+      <input type="time" name="time" placeholder="Time" required>
+      <input type="number" name="people" placeholder="People" min="1" max="10" required>
+      <input type="code" name="referral" placeholder="Referral Code(optional)" pattern="^**COFFEEPUUUH**$">
+    
+      <select name="table_preference" required>
         <option value="none">Choose Table Preferences</option>
         <option value="indoor">Indoor</option>
         <option value="outdoor">Outdoor</option>
         <option value="sofa">Sofa</option>
       </select>
+      <textarea name="note" id="note" cols="78" rows="3" placeholder="Write Note Here"></textarea>
+      <input type="checkbox" name="agree" id="agree" value="Agreed" required>I have read and agree to <span>terms of service</span>
       <input type="submit" value="Make a Reservation">
     </form>
+    <div class="discount-offer">
+      <h3>Get 10% off your reservation when you book 24 hours in advance!</h3>
+      <p>Use the code **COFFEEPUUUH** at checkout.</p>
+    </div>
   </main>
   <footer>
-    <p>Copyright &copy; 2023</p>
+    <p><b>Copyright &copy; 2023</b></p>
   </footer>
 </body>
 </html>
