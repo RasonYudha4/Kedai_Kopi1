@@ -10,10 +10,6 @@ a {
     color: black;
 }
 
-a:hover {
-    background-color: gray;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -31,6 +27,7 @@ body {
     background-color: #ffe8cf;
     background-position: center;
     justify-content: space-between;
+    box-shadow: 0 1px 1px #705843;
 }
 
 .logos {
@@ -60,3 +57,19 @@ body {
     font-size: 17px;
     padding: 10px;
 }
+
+.navbar ul li a {
+    font-family: "Pacifico", sans-serif;
+    color: #403226;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+
+.navbar ul li a:hover {
+    background-color: #d2b48c;
+    color: #ffffff;
+  }
+
