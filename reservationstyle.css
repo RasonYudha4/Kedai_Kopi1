@@ -17,9 +17,7 @@ body {
    
     text-align: center;
     padding: 80px;
-    margin-top: 0px;
-    margin-left: 0%;
-    margin-right: 0%;
+    font-size: 40px;
   }
   
   main {
@@ -48,10 +46,6 @@ body {
     color: #ffe8cf;
     cursor: pointer;
   }
-  
-  
-
-
 
   body {
     font-family: sans-serif;
@@ -63,5 +57,23 @@ body {
     margin: 0 auto;
   }
   
+  .discount-offer {
+    background-color: #ffffe0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .discount-offer h3 {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  
+  .discount-offer p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
  
  

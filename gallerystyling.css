@@ -3,15 +3,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 280vh;
-    text-decoration: ;
+    font-family: 'Poppins',sans-serif;
+    ;
     margin:0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    /*font-family: 'Times New Roman',Times, serif;*/
+    background-color: bisque;
   }
 
 .gambar {
-    align-items: center;
-    margin-left: 150px;
+   /* align-items: center;
+    margin-left: 0px;*/
+
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Word {
@@ -19,27 +25,56 @@ body {
     text-align: center;
     color: brown;
 }
-
+/*
 img{
     width: 30%; height: 30%;
 }
+*/
+
+.satu {
+    width: 00px;
+}
+
+.dua {
+    width: 600px;
+}
 
 .tiga {
-    height: 643px;
+    width: 693px;
 }
 
 .enam {
-    height: 805px;
+    width: 700px;
 }
 
 .empat {
-    height: 805px;
+    width: 600px;
 }
 
 .tujuh {
-    height: 805px;
+    height: px;
+}
+
+.delapan {
+    height: 1200px;
+    width: 600px;
 }
 
 .sepuluh {
-    height: 914px;
+    width: 589px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
