@@ -1,79 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 
 }
 
 body {
-    font-family: sans-serif;
-    
-    background-image: url(image/coffee-beans-levitate-white-background.jpg);
-    background-position: center;
-    background-size: cover;
-  }
+  font-family: sans-serif;    
+  background-image: url(image/coffee-beans-levitate-white-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
   
-  header {
-   
-    text-align: center;
-    padding: 80px;
-    font-size: 40px;
-  }
-  
-  main {
-    width: 50%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  form {
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  input,
-  select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  input[type="submit"] {
-    background-color: #000;
-    color: #ffe8cf;
-    cursor: pointer;
-  }
+header {
+  text-align: center;
+  padding: 80px;
+  font-size: 40px;
+}
 
-  body {
-    font-family: sans-serif;
-    background-color: whitesmokes;
-  }
+main {
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+}
   
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 15px;
+  vertical-align: top;
+  margin-top: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+    border-radius: 5px;
+}
   
-  .discount-offer {
-    background-color: #ffffe0;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-align: center;
-  }
+input[type="submit"] {
+  background-color: #000;
+  color: #ffe8cf;
+  cursor: pointer;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: whitesmokes;
+}
   
-  .discount-offer h3 {
-    font-size: 20px;
-    margin-top: 0px;
-  }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
   
-  .discount-offer p {
-    font-size: 16px;
-    margin-bottom: 0px;
-  }
+.discount-offer {
+  background-color: #ffffe0;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+  
+.discount-offer h3 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+  
+.discount-offer p {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
  
- 
+span {
+  color: blue;
+}
